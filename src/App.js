@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import{Formik, Field, Form } from 'formik';
 
@@ -18,7 +18,7 @@ function App() {
          <Form>
            <Field name="name" placeholder="Enter name"/>
            <Field name="email" type="email" placeholder="Enter email"/>
-           <Filed name="password" type="password" placeholder="Enter password"/>
+           <Field name="password" type="password" placeholder="Enter password"/>
            <button type="submit"> Signup </button>
            </Form> 
         </Formik>
